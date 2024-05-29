@@ -1,5 +1,5 @@
-template-repository (1.0-1) unstable; urgency=medium
+setuptool (1.5.25) UNRELEASED; urgency=medium
 
-  * Initial release
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- gli@kunluntech.com.cn  Fri, 17 May 2024 16:20:52 +0800
