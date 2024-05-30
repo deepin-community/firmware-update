@@ -10,5 +10,5 @@ Rules-Requires-Root: no
 
 Package: setuptool
 Architecture: any
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: check and fix Setup

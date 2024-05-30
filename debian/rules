@@ -18,7 +18,6 @@
 	dh $@
 override_dh_strip:
 
-override_dh_shlibdeps:
 
 override_dh_dwz:
 
