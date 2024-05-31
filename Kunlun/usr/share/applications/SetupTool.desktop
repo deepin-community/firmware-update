@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=SetupTool
-Exec=/usr/share/com.kunluntech.SetupTool/SetupUi
-Icon=/usr/share/com.kunluntech.SetupTool/icon/kunlunBios.png
+Exec=/usr/libexec/com.kunluntech.SetupTool/SetupUi
+Icon=/usr/libexec/com.kunluntech.SetupTool/icon/kunlunBios.png
 Type=Application
 Terminal=false
