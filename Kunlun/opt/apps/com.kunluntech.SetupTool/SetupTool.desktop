@@ -1,6 +1,0 @@
-[Desktop Entry]
-Name=SetupTool
-Exec=/opt/apps/com.kunluntech.SetupTool/SetupUi
-Icon=/opt/apps/com.kunluntech.SetupTool/icon/kunlunBios.png
-Type=Application
-Terminal=false

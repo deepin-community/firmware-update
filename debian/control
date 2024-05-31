@@ -1,14 +1,12 @@
-Source: setuptool
+Source: kunluntech.setuptool
 Section: unknown
 Priority: optional
 Maintainer: gli@kunluntech.com.cn
 Build-Depends: debhelper-compat (= 13)
 Standards-Version: 4.6.0
-#Vcs-Browser: https://salsa.debian.org/debian/setuptool
-#Vcs-Git: https://salsa.debian.org/debian/setuptool.git
 Rules-Requires-Root: no
 
-Package: setuptool
-Architecture: any
+Package: kunluntech.setuptool
+Architecture: loong64
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: check and fix Setup

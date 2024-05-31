@@ -1,4 +1,0 @@
-chmod -R  777 /opt/apps/com.kunluntech.SetupTool/
-cp /opt/apps/com.kunluntech.SetupTool/SetupTool.desktop /usr/share/applications/
-HomeDir=$(who | head -n 1 | awk '{print $1}')
-cp /opt/apps/com.kunluntech.SetupTool/SetupTool.desktop /home/$HomeDir/Desktop/
