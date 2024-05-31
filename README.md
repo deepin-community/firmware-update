@@ -9,16 +9,17 @@
 该工具适用于龙芯平台，用于在OS下查看和修改BIOS Setup选项。
 
 2. 生成安装包
-在主目录下运行debuild -us -uc -b即可在上级目录下生成如图[![pk8QGdJ.png](https://s21.ax1x.com/2024/05/31/pk8QGdJ.png)](https://imgse.com/i/pk8QGdJ)所示安装包
+在主目录下运行debuild -us -uc -b即可在上级目录下生成如图所示安装包
+图1[![pk8QGdJ.png](https://s21.ax1x.com/2024/05/31/pk8QGdJ.png)](https://imgse.com/i/pk8QGdJ)
 
-2.  安装
-图形安装：双击[![pk8QGdJ.png](https://s21.ax1x.com/2024/05/31/pk8QGdJ.png)](https://imgse.com/i/pk8QGdJ)自动安装；
+3.  安装
+图形安装：双击图1自动安装；
 文本安装：输入命令
 ```
       dpkg -i kunluntech.setuptool_x.x.xx_loong64.deb	
 ```
 
-3. 使用方法
+4. 使用方法
 双击启动器中的[![pk8QnGq.png](https://s21.ax1x.com/2024/05/31/pk8QnGq.png)](https://imgse.com/i/pk8QnGq)图标，选择相应的平台后，等待导出结束，即可显示当前BIOS配置界面；
 [![pkQ1n9f.png](https://s21.ax1x.com/2024/05/23/pkQ1n9f.png)](https://imgse.com/i/pkQ1n9f)
 
