@@ -27,7 +27,6 @@ override_dh_auto_installchangelogs:
 
 override_dh_auto_install:
 	mkdir -p ./debian/kunluntech.setuptool
-	chmod -R 777 ./Kunlun/usr
 	cp -r ./Kunlun/usr ./debian/kunluntech.setuptool/
 
 # dh_make generated override targets
