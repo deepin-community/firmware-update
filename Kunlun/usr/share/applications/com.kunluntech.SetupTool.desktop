@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Kunlun Tech SetupTool
+Name[zh_CN]=昆仑 BIOS 配置工具
+Comment=Graphical setup utility for Kunlun Tech BIOS
+Comment[zh_CN]=图形化昆仑 BIOS 设置工具
+Exec=kunluntech-setuptool
+Icon=kunlunBios
+Type=Application
+Terminal=false

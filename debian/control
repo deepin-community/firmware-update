@@ -31,4 +31,4 @@ Rules-Requires-Root: no
 Package: kunluntech.setuptool
 Architecture: loong64
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: check and fix Setup
+Description: Graphical setup utility for Kunlun Tech BIOS

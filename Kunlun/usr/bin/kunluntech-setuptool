@@ -1,0 +1,19 @@
+#!/bin/bash
+# Switch to the working directory.
+cd /usr/libexec/com.kunluntech.SetupTool
+
+# Launch the program with elevated privileges.
+#
+# Notes:
+#
+#   * --disable-internal-agent
+#       Instructs PolicyKit to use an external agent to prompt users for
+#       elevated privileges.
+#   * /usr/libexec/com.kunluntech.SetupTool/UiComp
+#       The main executable to launch with privileges.
+#   * "$@"
+#       Pass all arguments to the main executable.
+pkexec \
+	--disable-internal-agent \
+	'/usr/libexec/com.kunluntech.SetupTool/UiComp' \
+	"$@"
