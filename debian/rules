@@ -2,3 +2,14 @@
 
 %:
 	dh $@
+override_dh_strip:
+
+override_dh_dwz:
+
+override_dh_auto_installdocs:
+
+override_dh_auto_installchangelogs:
+
+override_dh_auto_install:
+	mkdir -p ./debian/kunluntech.setuptool
+	cp -r ./Kunlun/usr ./debian/kunluntech.setuptool/

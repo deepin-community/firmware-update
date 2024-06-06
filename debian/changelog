@@ -1,5 +1,11 @@
-template-repository (1.0-1) unstable; urgency=medium
+kunluntech.setuptool (1.5.26) beige; urgency=medium
+
+  * fix Issue #8914.
+
+ -- gli <gli@kunluntech.com.cn>  Thu, 06 Jun 2024 11:25:47 +0800
+
+kunluntech.setuptool (1.5.25) beige; urgency=medium
 
   * Initial release
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- ligen <gli@kunluntech.com.cn>  Fri, 17 May 2024 16:20:52 +0800

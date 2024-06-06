@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+<policyconfig>
+
+    <vendor>Kunlun Tech</vendor>
+    <vendor xml:lang="zh_CN">昆仑太科</vendor>
+    <vendor_url>http://www.kunluntech.com.cn/</vendor_url>
+    <icon_name>kunlunBios</icon_name>
+    <action id="com.kunluntech.SetupTool">
+
+        <description>Manage Kunlun BIOS configurations</description>
+        <description xml:lang="zh_CN">管理昆仑 BIOS 配置</description>
+        <message>Authentication is required to manage Kunlun BIOS configurations</message>
+        <message xml:lang="zh_CN">管理昆仑 BIOS 配置需要认证</message>
+        <defaults>
+            <allow_any>auth_admin</allow_any>
+            <allow_inactive>auth_admin</allow_inactive>
+            <allow_active>auth_admin</allow_active>
+        </defaults>
+        <annotate key="org.freedesktop.policykit.exec.path">/usr/libexec/com.kunluntech.SetupTool/UiComp</annotate>
+        <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+
+    </action>
+
+</policyconfig>
